@@ -1,0 +1,225 @@
+Netflix Data Analysis using Python, SQL & Power BI
+
+Author: Merline Princy
+
+Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, SQL (MySQL), Power BI
+
+Abstract
+
+The entertainment industry generates vast amounts of data that can be analyzed to understand audience preferences and content strategies. This project analyzes the Netflix Movies and TV Shows dataset using Python, SQL, and Power BI. The objective is to explore Netflix's content library, identify trends across genres, ratings, countries, directors, and release years, and build an interactive dashboard to support business decision-making.
+
+1. Introduction
+
+Netflix is one of the world's largest streaming platforms, offering thousands of movies and TV shows across multiple countries and languages.
+
+Analyzing Netflix's content library helps answer important business questions such as:
+
+What type of content dominates the platform?
+Which countries contribute the most content?
+Which genres are most popular?
+How has Netflix's content library evolved over time?
+What are the dominant audience ratings?
+
+The project combines data cleaning, exploratory data analysis (EDA), SQL querying, and dashboard development to generate meaningful business insights.
+
+2. Objectives
+
+The objectives of this project are:
+
+Clean and preprocess the Netflix dataset.
+Perform exploratory data analysis (EDA).
+Analyze trends across countries, ratings, genres, and release years.
+Develop SQL queries for business analysis.
+Create an interactive Power BI dashboard.
+Generate actionable business insights and recommendations.
+3. Dataset Description
+
+Dataset Name: Netflix Movies and TV Shows
+
+Source: Kaggle
+
+File Used: netflix1.csv
+
+Number of Records: Approximately 8,790
+
+Number of Columns: 10
+
+The dataset contains information about:
+
+Content Type
+Title
+Director
+Country
+Date Added
+Release Year
+Rating
+Duration
+Genres
+4. Technologies Used
+Technology	Purpose
+Python	Data Analysis
+Pandas	Data Cleaning
+NumPy	Numerical Computation
+Matplotlib	Visualization
+Seaborn	Statistical Visualization
+SQL (MySQL)	Database Analysis
+Power BI	Dashboard Development
+Jupyter Notebook	Development Environment
+5. Data Cleaning
+
+The following preprocessing steps were performed:
+
+Removed duplicate records.
+Handled missing values.
+Converted the date_added column into Date format.
+Extracted:
+Year Added
+Month Added
+Day Added
+Standardized missing categorical values.
+Verified data types.
+
+These steps ensured that the dataset was suitable for analysis.
+
+6. Exploratory Data Analysis (EDA)
+
+The following analyses were performed:
+
+Movies vs TV Shows
+
+Compared the number of Movies and TV Shows available on Netflix.
+
+Insert Chart Here
+
+Ratings Distribution
+
+Analyzed content ratings to understand audience segmentation.
+
+Insert Chart Here
+
+Top Countries
+
+Identified the countries contributing the largest number of titles.
+
+Insert Chart Here
+
+Content Added Over Time
+
+Analyzed Netflix's growth based on the year content was added.
+
+Insert Chart Here
+
+Monthly Trend
+
+Studied monthly patterns in content additions.
+
+Insert Chart Here
+
+Genre Analysis
+
+Identified the most common genres in the Netflix catalog.
+
+Insert Chart Here
+
+Top Directors
+
+Analyzed directors with the highest number of titles.
+
+Insert Chart Here
+
+Movie Duration Analysis
+
+Examined the distribution of movie durations.
+
+Insert Chart Here
+
+Correlation Analysis
+
+Generated a correlation heatmap for numerical features.
+
+Insert Heatmap Here
+
+Word Cloud
+
+Created a word cloud to visualize frequently occurring words in movie titles.
+
+Insert Word Cloud Here
+
+7. SQL Analysis
+
+SQL queries were used to answer business-oriented questions.
+
+Examples include:
+
+Movies vs TV Shows
+Top Countries
+Top Directors
+Ratings Distribution
+Release Year Analysis
+Country-wise Content Analysis
+Window Functions
+Common Table Expressions (CTEs)
+Business Case Queries
+
+Advanced SQL concepts used:
+
+GROUP BY
+HAVING
+CASE
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+LEAD()
+LAG()
+Views
+CTEs
+Subqueries
+8. Power BI Dashboard
+
+An interactive Power BI dashboard was developed to visualize the analysis.
+
+The dashboard includes:
+
+KPI Cards
+Movies vs TV Shows
+Top Countries
+Ratings Distribution
+Content Growth
+Monthly Trends
+Top Directors
+Interactive Filters
+
+Insert Dashboard Screenshot Here
+
+9. Key Business Insights
+
+The analysis revealed several important findings:
+
+Movies constitute the majority of Netflix's content library.
+TV-MA is the most common content rating.
+The United States contributes the largest number of titles.
+Netflix experienced rapid content growth after 2016.
+Drama and Comedy are the dominant genres.
+International content represents a significant portion of the catalog.
+Most movies have a standard feature-length duration.
+10. Business Recommendations
+
+Based on the findings, the following recommendations are suggested:
+
+Expand regional and multilingual content.
+Increase family-friendly programming.
+Continue investing in popular genres such as Drama and Comedy.
+Strengthen collaborations with high-performing directors.
+Maintain a balanced portfolio of Movies and TV Shows.
+11. Conclusion
+
+This project demonstrates a complete data analytics workflow, including data cleaning, exploratory data analysis, SQL-based business querying, and interactive dashboard development. The insights generated from the Netflix dataset provide valuable information about content distribution, audience preferences, and platform growth. The project highlights the importance of data-driven decision-making and showcases practical skills relevant to Data Analyst and Business Intelligence roles.
+
+12. Future Scope
+
+Future enhancements to this project could include:
+
+Building predictive models to forecast content trends.
+Performing sentiment analysis on user reviews.
+Integrating additional streaming platform datasets for comparative analysis.
+Developing a live dashboard using cloud-based data sources.

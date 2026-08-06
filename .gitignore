@@ -1,0 +1,76 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python Distribution
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Google Colab
+/content/
+
+# Power BI Auto Recovery
+*.pbix.autosave
+
+# Large Export Files (Optional)
+*.zip
+
+# Ignore generated Python cache
+*.pyc
+
+# Mac Finder files
+.AppleDouble
+.LSOverride
+
+# Windows Recycle Bin
+$RECYCLE.BIN/
+
+# -----------------------------
+# Uncomment if you don't want to upload the dataset
+# -----------------------------
+# dataset/netflix1.csv
+
+# -----------------------------
+# Uncomment if you don't want to upload Power BI backups
+# -----------------------------
+# powerbi/*.bak
