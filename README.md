@@ -38,7 +38,6 @@ Netflix-Data-Analysis/
 │
 ├── README.md
 ├── requirements.txt
-├── LICENSE
 ├── .gitignore
 │
 ├── dataset/
@@ -47,7 +46,6 @@ Netflix-Data-Analysis/
 │
 ├── notebooks/
 │   ├── Netflix_Data_Analysis.ipynb
-│   └── Netflix_Data_Analysis.html
 │
 ├── sql/
 │   ├── database_schema.sql
@@ -60,18 +58,6 @@ Netflix-Data-Analysis/
 │   ├── Netflix_Dashboard.pbix
 │   ├── dashboard.pdf
 │   └── dashboard.png
-│
-├── images/
-│   ├── movies_vs_tvshows.png
-│   ├── ratings_distribution.png
-│   ├── top_countries.png
-│   ├── top_directors.png
-│   ├── yearly_growth.png
-│   ├── monthly_trend.png
-│   ├── genres.png
-│   ├── duration_distribution.png
-│   ├── wordcloud.png
-│   └── correlation_heatmap.png
 │
 └── reports/
     ├── Business_Insights.pdf
