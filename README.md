@@ -1,33 +1,32 @@
-# 🎬 Netflix Data Analysis using Python, SQL & Power BI
+# 🎬 Netflix Data Analysis using Python & Power BI
 
-An end-to-end Data Analytics project that analyzes Netflix's content library using **Python**, **SQL**, and **Power BI**. The project focuses on data cleaning, exploratory data analysis (EDA), SQL-based business analysis, and interactive dashboard development to derive actionable business insights.
+An end-to-end Data Analytics project that analyzes Netflix's content library using **Python** and **Power BI**. The project focuses on data cleaning, exploratory data analysis (EDA), interactive dashboard development, and deriving meaningful business insights.
 
 ---
 
 ## 📌 Project Overview
 
-This project explores the Netflix Movies and TV Shows dataset to understand content distribution, audience ratings, genres, countries, directors, and release trends. The analysis follows a complete data analytics workflow, from raw data preprocessing to dashboard visualization and business recommendations.
+This project explores the Netflix Movies and TV Shows dataset to understand content distribution, audience ratings, genres, countries, directors, and release trends. The analysis follows a complete data analytics workflow, from raw data preprocessing and exploratory analysis to dashboard visualization and business recommendations.
 
 ---
 
 ## 🎯 Objectives
 
-- Clean and preprocess the Netflix dataset.
-- Perform Exploratory Data Analysis (EDA).
-- Analyze trends across genres, ratings, countries, directors, and release years.
-- Write SQL queries to solve business problems.
-- Build an interactive Power BI dashboard.
-- Generate actionable business insights and recommendations.
+* Clean and preprocess the Netflix dataset.
+* Perform Exploratory Data Analysis (EDA).
+* Analyze trends across genres, ratings, countries, directors, and release years.
+* Create meaningful visualizations to identify patterns and trends.
+* Build an interactive Power BI dashboard.
+* Generate actionable business insights and recommendations.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, WordCloud
-- **Database:** MySQL
-- **Business Intelligence:** Power BI
-- **Development Environment:** Jupyter Notebook / Google Colab
+* **Programming Language:** Python
+* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, WordCloud
+* **Business Intelligence:** Power BI
+* **Development Environment:** Jupyter Notebook / Google Colab
 
 ---
 
@@ -45,14 +44,7 @@ Netflix-Data-Analysis/
 │   └── dataset_info.md
 │
 ├── notebooks/
-│   ├── Netflix_Data_Analysis.ipynb
-│
-├── sql/
-│   ├── database_schema.sql
-│   ├── basic_queries.sql
-│   ├── intermediate_queries.sql
-│   ├── advanced_queries.sql
-│   └── business_case_queries.sql
+│   └── Netflix_Data_Analysis.ipynb
 │
 ├── powerbi/
 │   ├── Netflix_Dashboard.pbix
@@ -68,23 +60,23 @@ Netflix-Data-Analysis/
 
 ## 📊 Dataset Information
 
-- **Dataset:** Netflix Movies and TV Shows
-- **Source:** Kaggle
-- **Records:** ~8,790
-- **Features:** 10
+* **Dataset:** Netflix Movies and TV Shows
+* **Source:** Kaggle
+* **Records:** ~8,790
+* **Features:** 10
 
 ### Dataset Columns
 
-- Show ID
-- Type
-- Title
-- Director
-- Country
-- Date Added
-- Release Year
-- Rating
-- Duration
-- Listed In (Genres)
+* Show ID
+* Type
+* Title
+* Director
+* Country
+* Date Added
+* Release Year
+* Rating
+* Duration
+* Listed In (Genres)
 
 ---
 
@@ -92,12 +84,12 @@ Netflix-Data-Analysis/
 
 The following preprocessing steps were performed:
 
-- Removed duplicate records
-- Handled missing values
-- Converted date columns into proper date format
-- Extracted Year, Month, and Day from `date_added`
-- Verified data types
-- Standardized categorical values
+* Removed duplicate records.
+* Handled missing values.
+* Converted date columns into the appropriate date format.
+* Extracted Year, Month, and Day from `date_added`.
+* Verified and corrected data types.
+* Standardized categorical values for consistent analysis.
 
 ---
 
@@ -105,94 +97,55 @@ The following preprocessing steps were performed:
 
 The project includes the following analyses:
 
-- Movies vs TV Shows Distribution
-- Rating Distribution
-- Top Producing Countries
-- Content Added Over Time
-- Monthly Content Trend
-- Genre Analysis
-- Top Directors
-- Movie Duration Analysis
-- Correlation Heatmap
-- Word Cloud of Movie Titles
-
----
-
-## 🗄️ SQL Analysis
-
-Business-oriented SQL analysis was performed using MySQL.
-
-### Topics Covered
-
-- SELECT Statements
-- WHERE Clause
-- GROUP BY
-- ORDER BY
-- HAVING
-- Aggregate Functions
-- CASE Statements
-- Subqueries
-- Common Table Expressions (CTEs)
-- Window Functions
-- Views
-- Business Case Queries
+* Movies vs TV Shows Distribution
+* Rating Distribution
+* Top Producing Countries
+* Content Added Over Time
+* Monthly Content Trend
+* Genre Analysis
+* Top Directors
+* Movie Duration Analysis
+* Correlation Analysis
+* Word Cloud of Movie Titles
 
 ---
 
 ## 📊 Power BI Dashboard
 
-The interactive dashboard includes:
+The interactive Power BI dashboard provides an overview of Netflix's content library through visual analytics.
 
-- KPI Cards
-- Movies vs TV Shows Distribution
-- Top Countries
-- Ratings Distribution
-- Content Added Over Time
-- Monthly Trend
-- Top Directors
-- Interactive Slicers
+### Dashboard Features
 
-### Dashboard Preview
-
-> Add your dashboard screenshot below after uploading it.
-
-```markdown
-![Netflix Dashboard](powerbi/dashboard.png)
-```
+* KPI Cards
+* Movies vs TV Shows Distribution
+* Top Countries
+* Ratings Distribution
+* Content Added Over Time
+* Monthly Trend
+* Top Directors
+* Interactive Slicers and Filters
 
 ---
 
 ## 🔍 Key Business Insights
 
-- Movies constitute the majority of Netflix's content library.
-- TV-MA is the most common content rating.
-- The United States contributes the highest number of titles.
-- Netflix's content additions increased significantly after 2016.
-- Drama and Comedy are among the most common genres.
-- International content forms a significant portion of the catalog.
-- Most movies have a standard feature-length duration.
+* Movies constitute the majority of Netflix's content library.
+* TV-MA is one of the most common content ratings.
+* The United States contributes the highest number of titles.
+* Netflix's content additions increased significantly after 2016.
+* Drama and Comedy are among the most common genres.
+* International content forms a significant portion of the catalog.
+* Most movies have a standard feature-length duration.
 
 ---
 
 ## 💡 Business Recommendations
 
-- Expand regional and multilingual content.
-- Increase family-friendly programming.
-- Continue investing in high-performing genres.
-- Strengthen collaborations with successful directors.
-- Maintain a balanced mix of Movies and TV Shows.
-
----
-
-## 📸 Project Screenshots
-
-### Power BI Dashboard
-
-> Replace with your exported dashboard image.
-
-```markdown
-![Dashboard](powerbi/dashboard.png)
-```
+* Expand regional and multilingual content to reach a broader audience.
+* Increase family-friendly programming to serve different viewer segments.
+* Continue investing in high-performing and popular genres.
+* Strengthen collaborations with successful directors and content creators.
+* Maintain a balanced mix of Movies and TV Shows.
 
 ---
 
@@ -201,7 +154,7 @@ The interactive dashboard includes:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Netflix-Data-Analysis.git
+git clone https://github.com/Merline1306/Netflix-Data-Analysis.git
 ```
 
 ### 2. Navigate to the Project
@@ -222,35 +175,41 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-or
+You can also open `Netflix_Data_Analysis.ipynb` using Google Colab.
 
-Open `Netflix_Data_Analysis.ipynb` using Google Colab.
+### 5. Open the Power BI Dashboard
+
+Open the following file using Power BI Desktop:
+
+```text
+powerbi/Netflix_Dashboard.pbix
+```
 
 ---
 
 ## 📚 Skills Demonstrated
 
-- Data Cleaning
-- Data Preprocessing
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- SQL Querying
-- Business Intelligence
-- Dashboard Development
-- Data Storytelling
-- Business Insight Generation
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Python Programming
+* Power BI
+* Dashboard Development
+* Data Storytelling
+* Business Insight Generation
 
 ---
 
-## 📄 Reports
+## 📄 Reports and Project Files
 
-The repository also includes:
+The repository includes:
 
-- Business Insights Report
-- Complete Project Report
-- SQL Scripts
-- Power BI Dashboard
-- Jupyter Notebook
+* Jupyter Notebook containing the complete data analysis.
+* Business Insights Report.
+* Complete Project Report.
+* Interactive Power BI Dashboard.
+* Dataset and supporting project files.
 
 ---
 
